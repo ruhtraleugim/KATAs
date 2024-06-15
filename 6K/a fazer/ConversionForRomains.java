@@ -1,20 +1,7 @@
 public class ConversionForRomains {
     public static String Dod(int n) {
-        int[] a = ProcessaNumeros(n);
-        for(int i = 0 ; i < a.length ; i++){
-            if( i == 0 ){
-                //thousands = m
-            }
-            if( i == 1){
-                //hundreds = c
-            }
-            if( i == 2){
-                //dozens = d
-            }
-            if( i == 3){
-                //unities = u
-            }
-        }
+        
+        
         return "";
     }
     public static int[] ProcessaNumeros(int n){
@@ -39,8 +26,26 @@ public class ConversionForRomains {
         return new int[] {m, c, d, u};
     }
     public static String TranformarEmRomanos(int n){
-        
-        return "";
+        int[] a = ProcessaNumeros(n);
+        for(int i = 0 ; i < a.length ; i++){
+            if( i == 0 ){
+                //thousands = m
+                int m = a[i];
+                for(int j = 0 ; m < j ; j++){
+                    
+                }
+            }
+            if( i == 1){
+                //hundreds = c
+            }
+            if( i == 2){
+                //dozens = d
+            }
+            if( i == 3){
+                //unities = u
+            }
+        }
+        return new String();
     }
     
     public static void main(String[] args) {
